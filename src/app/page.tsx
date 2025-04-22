@@ -4,6 +4,7 @@ import Trusted from "@/app/sections/TrsustedBy/page";
 import FirstCard from "@/app/sections/DisplayCards/FirstCard/page";
 import SecondCard from "@/app/sections/DisplayCards/SecondCard/page";
 import ThirdCard from "@/app/sections/DisplayCards/ThirdCard/page";
+import BuildSoftware from "@/app/sections/BuildSoftware/page";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <FirstCard />
       <SecondCard />
       <ThirdCard />
+      <BuildSoftware />
     </>
   );
 }

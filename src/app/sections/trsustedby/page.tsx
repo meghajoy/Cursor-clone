@@ -15,7 +15,7 @@ export default function Trusted() {
   return (
     <div className="flex flex-col items-center py-28 px-4 gap-8">
       {/* Heading */}
-      <p className="font-mono uppercase font-semibold text-sm text-neutral-400 mb-8">
+      <p className="font-mono uppercase font-medium text-sm text-neutral-400 mb-8">
         Trusted by engineers at
       </p>
 

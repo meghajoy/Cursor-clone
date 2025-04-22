@@ -1,11 +1,11 @@
 import Image from "next/image"
 export default function Spotlight() {
   return (
-    <div className="rounded-xl px-4 bg-[url('/img/gradient.avif')] mx-auto bg-cover bg-center w-[1310px] h-[632px] justify-end">
+    <div className="rounded-xl px-4 bg-[url('/img/gradient.avif')] mx-auto bg-cover bg-center w-[1310px] h-[632px]">
       <div className="h-96 flex flex-col items-center text-white gap-8">
 
         {/*Headings*/}
-        <h1 className="text-center text-9xl font-bold">The AI Code Editor</h1>
+        <h1 className="text-center text-9xl font-bold pt-21">The AI Code Editor</h1>
         <h2 className="text-center font-mono font-medium text-[23px]">Built to make you extraordinarily productive, Cursor is the best way to code with AI.</h2>
         
         {/*Buttons*/}
