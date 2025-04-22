@@ -26,7 +26,7 @@ export default function Spotlight() {
         </div>
 
         {/*Image*/}
-        <div className="mx-auto overflow-hidden">
+        <div className="mx-auto overflow-hidden z-40">
           <Image src="/img/watch-demo.avif" alt="demo img" width={3860} height={3860} />
         </div>
       </div>
