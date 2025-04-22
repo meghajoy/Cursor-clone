@@ -1,4 +1,4 @@
-import Card from '@/app/components/card/page'
+import Card from '@/app/components/Card/page'
 export default function FirstCard() {
   return (
     <div>

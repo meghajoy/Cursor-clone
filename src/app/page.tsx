@@ -1,4 +1,4 @@
-import Header from "@/app/components/header/page"
+import Header from "@/app/components/Header/page"
 import Spotlight from "@/app/sections/Spotlight/page";
 import Trusted from "@/app/sections/TrsustedBy/page";
 import FirstCard from "@/app/sections/DisplayCards/FirstCard/page";
