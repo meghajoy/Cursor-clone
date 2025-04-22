@@ -1,11 +1,11 @@
 import Image from "next/image"
 export default function Spotlight() {
   return (
-    <div className="rounded-xl px-4 bg-[url('/img/gradient.avif')] mx-auto bg-cover bg-center w-[1310px] h-[632px]">
-      <div className="h-96 flex flex-col items-center justify-center text-white gap-8">
+    <div className="rounded-xl px-4 bg-[url('/img/gradient.avif')] mx-auto bg-cover bg-center w-[1310px] h-[632px] justify-end">
+      <div className="h-96 flex flex-col items-center text-white gap-8">
 
         {/*Headings*/}
-        <h1 className="text-center text-9xl font-bold pt-32">The AI Code Editor</h1>
+        <h1 className="text-center text-9xl font-bold">The AI Code Editor</h1>
         <h2 className="text-center font-mono font-medium text-[23px]">Built to make you extraordinarily productive, Cursor is the best way to code with AI.</h2>
         
         {/*Buttons*/}
@@ -26,8 +26,12 @@ export default function Spotlight() {
         </div>
 
         {/*Image*/}
-        <div className="mx-auto overflow-hidden z-40">
-          <Image src="/img/watch-demo.avif" alt="demo img" width={3860} height={3860} />
+        <div className="mx-auto">
+          <Image src="/img/watch-demo.avif" alt="demo img" width={3860} height={3860} style={{
+            width: "3860px",
+            height: "220px",
+            objectPosition: 'center top'
+          }}className="object-cover"/>
         </div>
       </div>
     </div>
