@@ -21,7 +21,7 @@ export default function GradientCard({
             <img src={img} alt="Image" 
                 className="absolute inset-0 h-auto w-full pointer-events-none select-none hover:opacity-0 transition-opacity duration-300 ease-in-out"
           />
-            <video src={video} muted loop playsInline className="absolute inset-0 h-auto w-full pointer-events-none select-none"/>
+            <video src={video} muted loop autoPlay className="absolute inset-0 h-auto w-full pointer-events-none select-none"/>
         </div>
         )}
     </a>
