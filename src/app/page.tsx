@@ -5,6 +5,7 @@ import FirstCard from "@/app/sections/DisplayCards/FirstCard/page";
 import SecondCard from "@/app/sections/DisplayCards/SecondCard/page";
 import ThirdCard from "@/app/sections/DisplayCards/ThirdCard/page";
 import BuildSoftware from "@/app/sections/BuildSoftware/page";
+import GradCards from "@/app/sections/GradCards/page";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <SecondCard />
       <ThirdCard />
       <BuildSoftware />
+      <GradCards />
     </>
   );
 }

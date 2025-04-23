@@ -6,7 +6,7 @@ export default function Spotlight() {
 
         {/*Headings*/}
         <h1 className="text-center text-9xl font-bold pt-21">The AI Code Editor</h1>
-        <h2 className="text-center font-mono font-medium text-[23px]">Built to make you extraordinarily productive, Cursor is the best way to code with AI.</h2>
+        <p className="text-center font-mono font-medium text-[23px]">Built to make you extraordinarily productive, Cursor is the best way to code with AI.</p>
         
         {/*Buttons*/}
         <div className="flex gap-4">
