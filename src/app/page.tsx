@@ -7,6 +7,7 @@ import ThirdCard from "@/app/sections/DisplayCards/ThirdCard/page";
 import BuildSoftware from "@/app/sections/BuildSoftware/page";
 import GradCards from "@/app/sections/GradCards/page";
 import BlogCard from "@/app/sections/BlogCard/page";
+import Sliders from "@/app/sections/Sliders/page";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <BuildSoftware />
       <GradCards />
       <BlogCard />
+      <Sliders />
     </>
   );
 }
