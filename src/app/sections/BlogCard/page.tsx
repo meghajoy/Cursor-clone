@@ -4,7 +4,7 @@ export default function BlogCard() {
     <div className="mx-auto px-4 py-26">
         <a href="#" className="flex justify-between border-[0.5px] border-solid border-neutral-400 rounded-4xl p-16">
         <div className="flex flex-col justify-between">
-            <div className="flex flex-col gap-10">
+            <div className="flex flex-col gap-8">
                 <div className="flex gap-2 items-center w-fit rounded-xl bg-neutral-900 p-2">
                     <img src="/img/cup.svg" alt="Cup" className="invert size-4" />
                     <h5 className="font-mono text-neutral-300 font-medium text-lg uppercase">Blog</h5>
@@ -15,7 +15,7 @@ export default function BlogCard() {
                 hover:border-neutral-200 hover:border-neutral-200 font-mono font-semibold uppercase text-neutral-300">Keep Reading</button>
             </div>
             <div className="flex gap-6 items-center ">
-                <img src="/img/arvid.avif" alt="Arvid" className="size-18 rounded-xl"/>
+                <img src="/img/profile/arvid.avif" alt="Arvid" className="size-18 rounded-xl"/>
                 <div className="flex flex-col items-start">
                     <p className="font-mono text-neutral-300 font-medium text-lg">Posted by Arvid</p>
                     <p className="font-mono text-neutral-300 font-light text-base">19 minutes read</p>
