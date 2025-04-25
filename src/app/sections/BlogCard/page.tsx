@@ -12,7 +12,7 @@ export default function BlogCard() {
                 <h1 className="text-neutral-200 font-bold text-4xl">Iterating with Shadow Workspaces</h1>
                 <p className="font-mono text-neutral-200 font-regular text-lg">Hidden windows and kernel-level folder proxies to let AIs iterate on code without affecting the user.</p>
                 <button className="w-fit flex items-center border-[0.5px] border-solid border-neutral-400 rounded-lg p-2 
-                hover:border-neutral-200 hover:border-neutral-200 font-mono font-semibold uppercase text-neutral-300">Keep Reading</button>
+                hover:border-neutral-200 font-mono font-semibold uppercase text-neutral-300">Keep Reading</button>
             </div>
             <div className="flex gap-6 items-center ">
                 <img src="/img/profile/arvid.avif" alt="Arvid" className="size-18 rounded-xl"/>
