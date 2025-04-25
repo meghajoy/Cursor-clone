@@ -9,6 +9,7 @@ import GradCards from "@/app/sections/GradCards/page";
 import BlogCard from "@/app/sections/BlogCard/page";
 //import Sliders from "@/app/sections/Sliders/page";
 import Try from "@/app/sections/TryCursor/page";
+import Footer from "@/app/components/Footer/page";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <BlogCard />
       {/* <Sliders /> */}
       <Try/>
+      <Footer/>
     </>
   );
 }
