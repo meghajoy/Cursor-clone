@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
-    <div className="mx-auto p-4 flex justify-between">
-        <div className="flex gap-4 items-center">
+    <div className="mx-auto px-4 flex justify-between">
+        <div className="flex gap-28 items-center">
 
             {/* First Section */}
-            <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-14">
                 <div>
                     <a href="#" className="flex gap-2 items-center">
                         <p className="text-neutral-300 text-lg font-medium">hi@cursor.com</p>
@@ -28,7 +28,7 @@ export default function Footer() {
 
             {/* Second Section */}
             <div className="flex gap-28">
-                <div className="flex gap-20 text-neutral-500 text-base font-medium">
+                <div className="flex gap-40 text-neutral-500 text-base font-medium">
 
                     {/* First */}
                     <ul className="flex flex-col gap-4 w-[80px]">
@@ -78,13 +78,13 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
+            </div>
         </div>
-
             {/* Third Section */}
             <div className="flex flex-col justify-between">
-                <div className="flex gap-2 border-solid border-[0.5px] rounded-lg iems-center h-fit w-full p-2 text-neutral-500">
+                <div className="flex gap-1 border-solid border-[0.5px] rounded-lg iems-center h-fit w-[240px] p-1 text-neutral-500">
                     <img src="/img/globe.svg" alt="Globe Icon" className="size-6"/>
-                    <select name="Language" id="lang">
+                    <select name="Language" id="lang" className="appearance-none cursor-pointer">
                         <div className="w-fit h-fit p2 border-solid border-[0.5px] rounded-lg">
                             <option value="1">English</option>
                             <option value="2">Chinese</option>
@@ -98,8 +98,6 @@ export default function Footer() {
                     <img src="/img/moon.svg" alt="Dark mode" className="size-4"/>
                 </div>
             </div>
-        </div>
     </div>
-    
   )
 }
