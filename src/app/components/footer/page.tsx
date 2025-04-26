@@ -85,11 +85,9 @@ export default function Footer() {
                 <div className="flex gap-1 border-solid border-[0.5px] rounded-lg iems-center h-fit w-[240px] p-1 text-neutral-500">
                     <img src="/img/globe.svg" alt="Globe Icon" className="size-6"/>
                     <select name="Language" id="lang" className="appearance-none cursor-pointer">
-                        <div className="w-fit h-fit p2 border-solid border-[0.5px] rounded-lg">
-                            <option value="1">English</option>
-                            <option value="2">Chinese</option>
-                            <option value="3">Japanese</option>
-                        </div>
+                        <option value="1">English</option>
+                        <option value="2">Chinese</option>
+                        <option value="3">Japanese</option>
                     </select>
                 </div>
                 <div className="flex gap-2 border-solid border-[0.5px] border-neutral-400 rounded-md items-center h-fit w-fit p-1 invert ">
