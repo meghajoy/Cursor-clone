@@ -1,7 +1,7 @@
 import Card from '@/app/components/Card/page'
 export default function FirstCard() {
   return (
-    <div>
+    <div className='pt-22'>
       <Card
         heading='Tab, tab, tab'
         description='Cursor lets you breeze through changes by predicting your next edit.'

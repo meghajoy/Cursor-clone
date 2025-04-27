@@ -33,7 +33,7 @@ export default function Header() {
         {/* Sign Up and Download */}
         <div className="flex gap-4 items-center">
             <div className="flex items-center border-[0.5px] border-solid border-neutral-400 rounded-lg px-4 py-3 hover:border-neutral-200 hover:border-neutral-200">
-                <a href="#" className="flex gap-4 font-mono font-semibold uppercase text-neutral-300">Sign Up</a>
+                <a href="#" className="flex gap-4 font-mono font-semibold uppercase text-neutral-300">Sign In</a>
             </div>
             <div className="flex gap-2 items-center bg-stone-100 rounded-lg px-4 py-3">
                 <Image src="/img/download.svg" alt="Download icon" width={14} height={12}/>

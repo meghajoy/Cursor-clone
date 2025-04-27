@@ -53,49 +53,49 @@
         ],
         "Slider2":[
             {
-                "id": 1,
+                "id": 8,
                 "feedback": "Lorem Ipsum",
                 "name": "Wes Bos",
                 "img": "/img/profile/wes.avif",
                 "job": "Internet"
             },
             {
-                "id": 2,
+                "id": 9,
                 "feedback": "I installed Cursor ... oh",
                 "name": "Kent C. Dodds",
                 "img": "/img/profile/kent.avif" ,
                 "job": "Internet"
             },
             {
-                "id": 3,
+                "id": 10,
                 "feedback": "After many recommendations, I finally switched from VSC to Cursor and ... wow! It's absolutely incredible. If you like Copilot (or if you don't), you'll be blown away by Cursor. There is no going back. 🤯",
                 "name": "Johannes Schickling",
                 "img": "/img/profile/johannes.avif",
                 "job": "Figma"
             },
             {
-                "id": 4,
+                "id": 11,
                 "feedback": "Cursor is at least a 2x improvement over Copilot.It's amazing having an AI pair programmer, and is an incredible accelerator for me and my team.",
                 "name": "Ben Bernad",
                 "img": "/img/profile/benb-copy.avif",
                 "job": "Instacart"
             },
             {
-                "id": 5,
+                "id": 12,
                 "feedback": "Cursor is gooooood",
                 "name": "Steven Tey",
                 "img": "/img/profile/steven.avif",
                 "job": "Dub"
             },
             {
-                "id": 6,
+                "id": 13,
                 "feedback": "Cursor is so good, and literally gets better/more feature-rich every couple of weeks.",
                 "name": "Morgan McGuire",
                 "img": "/img/profile/tzdi-krg400x400.avif",
                 "job": "Weights & Biases"
             },
             {
-                "id": 7,
+                "id": 14,
                 "feedback": "The Cursor tab completion while coding is occasionally so magic it defies reality - about ~25% of the time it is anticipating exactly what I want to do. It is enough to make you believe that eventually you'll be able to code at the speed of thought.",
                 "name": "Kevin Whinnery",
                 "img": "/img/profile/kent.avif",
@@ -104,54 +104,54 @@
         ],
         "Slider3":[
             {
-                "id": 1,
+                "id": 15,
                 "feedback": "The Cursor tab completion while coding is occasionally so magic it defies reality - about ~25% of the time it is anticipating exactly what I want to do. It is enough to make you believe that eventually you'll be able to code at the speed of thought.",
                 "name": "Kevin Whinnery",
                 "img": "/img/profile/kent.avif",
                 "job": "OpenAI"
             },
             {
-                "id": 2,
+                "id": 16,
                 "feedback": "Cursor is at least a 2x improvement over Copilot.It's amazing having an AI pair programmer, and is an incredible accelerator for me and my team.",
                 "name": "Ben Bernad",
                 "img": "/img/profile/benb-copy.avif",
                 "job": "Instacart"
             },
             {
-                "id": 3,
+                "id": 17,
                 "feedback": "I installed Cursor ... oh",
                 "name": "Kent C. Dodds",
                 "img": "/img/profile/kent.avif" ,
                 "job": "Internet"
             },
             {
-                "id": 4,
+                "id": 18,
                 "feedback": "After many recommendations, I finally switched from VSC to Cursor and ... wow! It's absolutely incredible. If you like Copilot (or if you don't), you'll be blown away by Cursor. There is no going back. 🤯",
                 "name": "Johannes Schickling",
                 "img": "/img/profile/johannes.avif",
                 "job": "Figma"
             },
             {
-                "id": 5,
+                "id": 19,
+                "feedback": "Cursor is so good, and literally gets better/more feature-rich every couple of weeks.",
+                "name": "Morgan McGuire",
+                "img": "/img/profile/sam-copy.avif",
+                "job": "Weights & Biases"
+            }, 
+            {
+                "id": 20,
                 "feedback": "Cursor is at least a 2x improvement over Copilot.It's amazing having an AI pair programmer, and is an incredible accelerator for me and my team.",
                 "name": "Ben Bernad",
                 "img": "/img/profile/benb-copy.avif",
                 "job": "Instacart"
             },
             {
-                "id": 6,
+                "id": 21,
                 "feedback": "Cursor is 🐐-ed for real",
                 "name": "Steven Tey",
                 "img": "/img/profile/steven.avif",
                 "job": "Dub"
-            },
-            {
-                "id": 7,
-                "feedback": "Cursor is so good, and literally gets better/more feature-rich every couple of weeks.",
-                "name": "Morgan McGuire",
-                "img": "/img/profile/sam-copy.avif",
-                "job": "Weights & Biases"
-            } 
+            }
         ]
         
     }
