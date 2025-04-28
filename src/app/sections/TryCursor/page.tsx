@@ -1,6 +1,6 @@
 export default function Try() {
   return (
-    <div className="flex mx-auto px-4 py-12 justify-between items-center">
+    <div className="flex mx-auto px-4 pt-68 py-24 justify-between items-center">
       <div className="flex flex-col gap-4">
         <h1 className="font-bold text-[110px] bg-linear-to-b from-neutral-200 to-neutral-300 bg-clip-text text-transparent">Try Cursor Now</h1>
         <a href="#">
