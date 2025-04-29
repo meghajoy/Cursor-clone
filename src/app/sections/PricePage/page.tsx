@@ -46,25 +46,29 @@ export default function PricePage() {
                 {currentPricing.map((plan) => (  
                     <div key={plan.id} className="border-solid border-[0.5px] border-neutral-400 rounded-lg p-3">
                         <div className="flex flex-col h-full justify-between border-solid border-[0.5px] border-neutral-400 rounded-md p-4 bg-neutral-900">
-                            <p className="font-mono text-neutral-200">{plan.pack}</p>
-                            <div className="flex">
-                                <h2 className="font-mono text-neutral-200">{plan.price === "Free" ? "Free" : `$${plan.price}`}</h2>
-                                <p className="font-mono text-neutral-200">{plan.price === "Free"
-                                    ? ""
-                                    : plan.price === "20"
-                                    ? "/month"
-                                    : "/user/month"}
-                                </p>
+                            <div className="flex flex-col gap-4">
+                                <p className="font-mono text-xl font-medium text-neutral-200">{plan.pack}</p>
+                                <div className="flex items-end gap-1">
+                                    <h2 className="font-semibold text-6xl text-neutral-200">{plan.price === "Free" ? "Free" : `$${plan.price}`}</h2>
+                                    <p className="font-mono text-neutral-200">{plan.price === "Free"
+                                        ? ""
+                                        : plan.price === "20"
+                                        ? "/month"
+                                        : "/user/month"}
+                                    </p>
+                                </div>
                             </div>
-                            <p className="font-mono text-neutral-200">{plan.include}</p>
-                            <ul className="font-mono text-neutral-200">
-                                {plan.points.map((point, index) => (
-                                    <li key={index} className="flex items-center gap-2">
-                                        <img src="/img/tick.svg" alt="Tick icon" className="size-2 invert"/>
-                                        <p>{point}</p>
-                                    </li>
-                                ))}
-                            </ul>
+                            <div className="flex flex-col ">
+                                <p className="text-xl font-semibold text-neutral-200">{plan.include}</p>
+                                <ul className="font-mono text-neutral-200">
+                                    {plan.points.map((point, index) => (
+                                        <li key={index} className="flex items-center gap-2">
+                                            <img src="/img/tick.svg" alt="Tick icon" className="size-2 invert"/>
+                                            <p>{point}</p>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
                         <div>
                             <button></button>
                             <button className="font-mono text-neutral-200">Get Started</button>
