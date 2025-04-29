@@ -152,7 +152,78 @@
                 "img": "/img/profile/steven.avif",
                 "job": "Dub"
             }
+        ],
+        "PricingMonthly":[
+            {    
+                "id": 22,
+                "pack": "Hobby",
+                "price": "Free",
+                "include": "Includes",
+                "points": [
+                    "Pro two-week trial",
+                    "2000 completions",
+                    "50 slow premium requests"
+                ]
+            },
+            {    
+                "id": 23,
+                "pack": "Pro",
+                "price": "20",
+                "include": "Everything in Hobby, plus",
+                "points": [
+                    "Unlimited completions",
+                    "500 fast premium requests per month",
+                    "Unlimited slow premium requests"
+                ]
+            },
+            {    
+                "id": 24,
+                "pack": "Business",
+                "price": "40",
+                "include": "Everything in Pro, plus",
+                "points": [
+                    "Enforce privacy mode org-wide",
+                    "Centralized team billing",
+                    "Admin dashboard with usage stats",
+                    "SAML/OIDC SSO"
+                ]
+            }
+        ],
+        "PricingYearly":[
+            {    
+                "id": 25,
+                "pack": "Hobby",
+                "price": "Free",
+                "include": "Includes",
+                "points": [
+                    "Pro two-week trial",
+                    "2000 completions",
+                    "50 slow premium requests"
+                ]
+            },
+            {    
+                "id": 26,
+                "pack": "Pro",
+                "price": "16",
+                "include": "Everything in Hobby, plus",
+                "points": [
+                    "Unlimited completions",
+                    "500 fast premium requests per month",
+                    "Unlimited slow premium requests"
+                ]
+            },
+            {    
+                "id": 27,
+                "pack": "Business",
+                "price": "32",
+                "include": "Everything in Pro, plus",
+                "points": [
+                    "Enforce privacy mode org-wide",
+                    "Centralized team billing",
+                    "Admin dashboard with usage stats",
+                    "SAML/OIDC SSO"
+                ]
+            }
         ]
-        
     }
 }
