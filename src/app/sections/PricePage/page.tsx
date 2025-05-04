@@ -43,9 +43,15 @@ export default function PricePage() {
             </div>
             {/* Pricing Cards */}   
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
-                {currentPricing.map((plan) => (  
-                    <div key={plan.id} className="border-solid border-[0.5px] border-neutral-400 rounded-xl p-3">
-                        <div className="flex flex-col justify-between h-full border-solid border-[0.5px] border-neutral-400 rounded-lg p-8 bg-neutral-900">
+                {currentPricing.map((plan,index) => (  
+                    <div key={plan.id} className="border-solid border-[0.5px] border-neutral-400 rounded-xl p-3 ">
+                        <div className="flex flex-col justify-between h-full border-solid border-[0.5px] border-neutral-400 rounded-lg p-8 bg-neutral-900 relative overflow-hidden">
+                            {index === 1 && (
+                                <div
+                                    className="absolute bottom-0 left-0 w-full h-24 bg-no-repeat bg-bottom bg-contain pointer-events-none"
+                                    style={{ backgroundImage: `url('/img/gradient.avif')` }}
+                                />
+                            )}
                             {/* Heading */}
                             <div className="flex flex-col gap-4">
                                 <p className="font-mono text-xl font-medium text-neutral-200">{plan.pack}</p>
@@ -62,7 +68,7 @@ export default function PricePage() {
                             {/* Includes */}
                             <div className="flex flex-col py-4 gap-3">
                                 <p className="text-xl font-semibold text-neutral-200">{plan.include}</p>
-                                <ul className="font-mono text-neutral-200 flex flex-col gap-2">
+                                <ul className="font-mono text-neutral-200 font-medium flex flex-col gap-2">
                                     {plan.points.map((point, index) => (
                                         <li key={index} className="flex items-center gap-2">
                                             <img src="/img/tick.svg" alt="Tick icon" className="size-2 invert"/>
@@ -75,17 +81,17 @@ export default function PricePage() {
                             <div className="flex gap-3 mt-auto">
                                 {/* Button One */}
                                 {plan.buttonone && (
-                                    <button className="flex items-center gap-2 px-4 py-2 border border-neutral-400 bg-stone-100 uppercase text-stone-900 rounded transition">
+                                    <button className="flex items-center gap-2 px-4 py-2 border border-neutral-400 bg-stone-100 uppercase text-stone-900 rounded-lg transition">
                                         {plan.price === "Free" && (
                                             <img src="/img/download.svg" alt="Download" className="w-4 h-4" />
                                         )}
-                                        <span className="font-mono text-sm">{plan.buttonone}</span>
+                                        <span className="font-mono text-lg font-semibold">{plan.buttonone}</span>
                                     </button>
                                 )}
 
                                 {/* Button Two */}
                                 {plan.buttontwo && (
-                                    <button className="px-4 py-2 border border-neutral-400 text-neutral-200 rounded uppercase transition font-mono text-sm">
+                                    <button className="px-4 py-2 bg-neutral-950 border border-neutral-400 text-neutral-200 rounded-lg uppercase transition font-mono text-lg font-semibold">
                                         {plan.buttontwo}
                                     </button>
                                 )}
