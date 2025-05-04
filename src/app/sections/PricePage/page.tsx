@@ -20,7 +20,7 @@ export default function PricePage() {
         {/* Second Section */}
         <div className="flex flex-col justify-center items-center py-10 gap-8">
             <div className="flex w-fit items-center border-solid border-[0.5px] border-neutral-400 rounded-md">
-                <button onClick={() => setYear(false)} className={`rounded-sm py-2 hover:text-neutral-200 cursor-pointer${
+                <button onClick={() => setYear(false)} className={`rounded-sm py-1 hover:text-neutral-200 cursor-pointer${
                     !year
                         ? "text-neutral-900 bg-neutral-900 border-[0.5px] border-neutral-400 border-solid"
                         : "text-neutral-400"
@@ -30,7 +30,7 @@ export default function PricePage() {
                     Monthly
                     </span>
                 </button>
-                <button onClick={() => setYear(true)} className={`rounded-sm py-2 hover:text-neutral-200 cursor-pointer${
+                <button onClick={() => setYear(true)} className={`rounded-sm py-1 hover:text-neutral-200 cursor-pointer${
                     year
                         ? "text-neutral-900 bg-neutral-900 border-[0.5px] border-neutral-400 border-solid"
                         : "text-neutral-400"
@@ -42,13 +42,14 @@ export default function PricePage() {
                 </button>   
             </div>
             {/* Pricing Cards */}   
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full max-w-6xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
                 {currentPricing.map((plan) => (  
-                    <div key={plan.id} className="border-solid border-[0.5px] border-neutral-400 rounded-lg p-3">
-                        <div className="flex flex-col h-full justify-between border-solid border-[0.5px] border-neutral-400 rounded-md p-4 bg-neutral-900">
+                    <div key={plan.id} className="border-solid border-[0.5px] border-neutral-400 rounded-xl p-3">
+                        <div className="flex flex-col justify-between h-full border-solid border-[0.5px] border-neutral-400 rounded-lg p-8 bg-neutral-900">
+                            {/* Heading */}
                             <div className="flex flex-col gap-4">
                                 <p className="font-mono text-xl font-medium text-neutral-200">{plan.pack}</p>
-                                <div className="flex items-end gap-1">
+                                <div className="flex items-end gap-1 border-b-[0.5px] border-neutral-400 pb-4">
                                     <h2 className="font-semibold text-6xl text-neutral-200">{plan.price === "Free" ? "Free" : `$${plan.price}`}</h2>
                                     <p className="font-mono text-neutral-200">{plan.price === "Free"
                                         ? ""
@@ -58,9 +59,10 @@ export default function PricePage() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="flex flex-col ">
+                            {/* Includes */}
+                            <div className="flex flex-col py-4 gap-3">
                                 <p className="text-xl font-semibold text-neutral-200">{plan.include}</p>
-                                <ul className="font-mono text-neutral-200">
+                                <ul className="font-mono text-neutral-200 flex flex-col gap-2">
                                     {plan.points.map((point, index) => (
                                         <li key={index} className="flex items-center gap-2">
                                             <img src="/img/tick.svg" alt="Tick icon" className="size-2 invert"/>
@@ -69,13 +71,28 @@ export default function PricePage() {
                                     ))}
                                 </ul>
                             </div>
-                        <div>
-                            <button></button>
-                            <button className="font-mono text-neutral-200">Get Started</button>
+                            {/* Buttons */}
+                            <div className="flex gap-3 mt-auto">
+                                {/* Button One */}
+                                {plan.buttonone && (
+                                    <button className="flex items-center gap-2 px-4 py-2 border border-neutral-400 bg-stone-100 uppercase text-stone-900 rounded transition">
+                                        {plan.price === "Free" && (
+                                            <img src="/img/download.svg" alt="Download" className="w-4 h-4" />
+                                        )}
+                                        <span className="font-mono text-sm">{plan.buttonone}</span>
+                                    </button>
+                                )}
+
+                                {/* Button Two */}
+                                {plan.buttontwo && (
+                                    <button className="px-4 py-2 border border-neutral-400 text-neutral-200 rounded uppercase transition font-mono text-sm">
+                                        {plan.buttontwo}
+                                    </button>
+                                )}
+                            </div>
                         </div>
                     </div>
-                </div>
-            ))}
+                ))}
             </div>
         </div>
 

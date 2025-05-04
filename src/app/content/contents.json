@@ -163,7 +163,9 @@
                     "Pro two-week trial",
                     "2000 completions",
                     "50 slow premium requests"
-                ]
+                ],
+                "buttonone": "Download",
+                "buttontwo": "Others"
             },
             {    
                 "id": 23,
@@ -174,7 +176,8 @@
                     "Unlimited completions",
                     "500 fast premium requests per month",
                     "Unlimited slow premium requests"
-                ]
+                ],
+                "buttonone": "Get started"
             },
             {    
                 "id": 24,
@@ -186,7 +189,8 @@
                     "Centralized team billing",
                     "Admin dashboard with usage stats",
                     "SAML/OIDC SSO"
-                ]
+                ],
+                "buttonone": "Get started"
             }
         ],
         "PricingYearly":[
@@ -199,7 +203,9 @@
                     "Pro two-week trial",
                     "2000 completions",
                     "50 slow premium requests"
-                ]
+                ],
+                "buttonone": "Download",
+                "buttontwo": "Others"
             },
             {    
                 "id": 26,
@@ -210,7 +216,8 @@
                     "Unlimited completions",
                     "500 fast premium requests per month",
                     "Unlimited slow premium requests"
-                ]
+                ],
+                "buttonone": "Get started"
             },
             {    
                 "id": 27,
@@ -222,7 +229,8 @@
                     "Centralized team billing",
                     "Admin dashboard with usage stats",
                     "SAML/OIDC SSO"
-                ]
+                ],
+                "buttonone": "Get started"
             }
         ]
     }
