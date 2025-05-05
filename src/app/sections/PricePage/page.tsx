@@ -6,7 +6,7 @@ export default function PricePage() {
     const [year, setYear] = useState(false);
 
     const currentPricing = year
-    ? pricedata.SlidingCards.PricingYearly : pricedata.SlidingCards.PricingMonthly;
+    ? pricedata.Contents.PricingYearly : pricedata.Contents.PricingMonthly;
   return (
 
     <div className="flex flex-col px-4 mx-auto py-14">
@@ -47,13 +47,16 @@ export default function PricePage() {
                     <div key={plan.id} className="border-solid border-[0.5px] border-neutral-400 rounded-xl p-3 ">
                         <div className="flex flex-col justify-between h-full border-solid border-[0.5px] border-neutral-400 rounded-lg p-8 bg-neutral-900 relative overflow-hidden">
                             {index === 1 && (
-                                <div
-                                    className="absolute bottom-0 left-0 w-full h-24 bg-no-repeat bg-bottom bg-contain pointer-events-none"
+                                  <div className="absolute bottom-0 left-0 w-full h-full z-0 pointer-events-none">
+                                  {/* Background image with blur */}
+                                  <div
+                                    className="absolute inset-0 bg-no-repeat bg-bottom bg-contain blur-lg"
                                     style={{ backgroundImage: `url('/img/gradient.avif')` }}
-                                />
+                                  />
+                                </div>
                             )}
                             {/* Heading */}
-                            <div className="flex flex-col gap-4">
+                            <div className="flex flex-col gap-4 z-10">
                                 <p className="font-mono text-xl font-medium text-neutral-200">{plan.pack}</p>
                                 <div className="flex items-end gap-1 border-b-[0.5px] border-neutral-400 pb-4">
                                     <h2 className="font-semibold text-6xl text-neutral-200">{plan.price === "Free" ? "Free" : `$${plan.price}`}</h2>
@@ -66,7 +69,7 @@ export default function PricePage() {
                                 </div>
                             </div>
                             {/* Includes */}
-                            <div className="flex flex-col py-4 gap-3">
+                            <div className="flex flex-col py-4 gap-3 z-10">
                                 <p className="text-xl font-semibold text-neutral-200">{plan.include}</p>
                                 <ul className="font-mono text-neutral-200 font-medium flex flex-col gap-2">
                                     {plan.points.map((point, index) => (
@@ -78,7 +81,7 @@ export default function PricePage() {
                                 </ul>
                             </div>
                             {/* Buttons */}
-                            <div className="flex gap-3 mt-auto">
+                            <div className="flex gap-3 mt-auto z-10">
                                 {/* Button One */}
                                 {plan.buttonone && (
                                     <button className="flex items-center gap-2 px-4 py-2 border border-neutral-400 bg-stone-100 uppercase text-stone-900 rounded-lg transition">

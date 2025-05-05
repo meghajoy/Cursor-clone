@@ -1,5 +1,5 @@
 {
-    "SlidingCards":{
+    "Contents":{
         "Slider1":[
             {
                 "id": 1,
@@ -231,6 +231,53 @@
                     "SAML/OIDC SSO"
                 ],
                 "buttonone": "Get started"
+            }
+        ],
+        "PricingContents": [
+            {
+                "id": 28,
+                "heading" : "Why isn't Cursor completely free?",
+                "ans": "Large language models cost quite a bit of money to run. To grow Cursor sustainably without compromising our service quality, we need to cover our costs."
+            },
+            {
+                "id": 29,
+                "heading" : "What are the premium models?",
+                "ans": "Examples of premium models are GPT-4, GPT-4o, and Claude 3.5/3.7 Sonnet. You have 500 fast uses and unlimited slow uses each month for these models. Some models like o3-mini use 1/3 of a fast request. The full list of premium models can be found here."
+            },
+            {
+                "id": 30,
+                "heading" : "Who owns the code generated in Cursor?",
+                "ans": "You! Regardless of whether you use the free, pro or business version of Cursor, all generated code is yours and free to be used however you like, including commercially."
+            },
+            {
+                "id": 31,
+                "heading" : "What are fast and slow uses?",
+                "ans": "Fast uses of premium models are given first priority by our backend. On Pro, once you hit your fast usage limit, you can still use premium models, but your requests may be queued behind others at times of high load."
+            },
+            {
+                "id": 32,
+                "heading" : "How do the plan limits work?",
+                "ans": "If you go over your limit, we'll nicely ask you to upgrade. You can use up to 50 uses of the premium models for free."
+            },
+            {
+                "id": 33,
+                "heading" : "What code do you store?",
+                "ans": "If you enable Privacy mode, your code is never stored anywhere other than your machine and will never be trained on. Otherwise, we may collect usage and telemetry data (including prompts, code snippets, or editor actions) to help improve Cursor."
+            },
+            {
+                "id": 34,
+                "heading" : "What is Cursor Tab?",
+                "ans": "This is Cursor's native autocomplete feature. It's a more powerful Copilot that suggests entire diffs with especially good memory."
+            },
+            {
+                "id": 35,
+                "heading" : "Do all Cursor features work with an API key?",
+                "ans": "A few important Cursor features (including Tab and Apply from Chat) are powered by custom models and cannot be charged to an API key."
+            },
+            {
+                "id": 36,
+                "heading" : "Where can I ask more questions?",
+                "ans": "You’re welcome to join our forum and share your thoughts! If you prefer a private conversation, feel free to email us directly."
             }
         ]
     }

@@ -1,7 +1,7 @@
 import SlidingCard from "@/app/components/SlidingCard/page";
 import Contents from "@/app/content/contents.json";
 export default function Sliders() {
-  const {Slider1, Slider2, Slider3} = Contents.SlidingCards;
+  const {Slider1, Slider2, Slider3} = Contents.Contents;
   return (
     <div className="flex flex-col items-center gap-10 mx-auto px-4">
       <div className="flex flex-col items-center gap-4">
