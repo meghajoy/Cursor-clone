@@ -22,7 +22,7 @@ export default function Header() {
         <div>
             <ul className="flex gap-10 font-mono font-semibold uppercase text-neutral-400 ">
                 <li><a href="/Pages/Pricing" className="hover:text-neutral-200">Pricing</a></li>
-                <li><a href="#" className="hover:text-neutral-200">Features</a></li>
+                <li><a href="/Pages/Features" className="hover:text-neutral-200">Features</a></li>
                 <li><a href="#" className="hover:text-neutral-200">Enterprises</a></li>
                 <li><a href="#" className="hover:text-neutral-200">Blog</a></li>
                 <li><a href="#" className="hover:text-neutral-200">Forum</a></li>

@@ -1,4 +1,3 @@
-
 export default function BlogCard() {
   return (
     <div className="mx-auto px-4 py-26">
