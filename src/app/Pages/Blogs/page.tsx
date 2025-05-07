@@ -5,15 +5,15 @@ export default function Blogs() {
   return (
     <div>
         <Header/>
-        <div className="flex flex-col py-12 px-4">
+        <div className="flex flex-col py-8 px-4">
             <div className="flex flex-col items-start gap-2 py-12 ">
                 <h1 className="font-bold h-15 text-5xl bg-linear-to-b from-neutral-200 to-neutral-400 bg-clip-text text-transparent">Blog</h1>
                 <p className="font-mono font-medium text-[24px] text-neutral-200 text-center">Compiled notes from the team</p>
             </div>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 py-3">
                 <h2 className="text-4xl font-semibold text-neutral-200">Featured</h2>
-                <a href="#" className="flex gap-4">
-                    <div className="w-fit flex flex-col gap-16 border-solid border-[0.5px] border-neutral-400 rounded-xl p-6 hover:border-neutral-100">
+                <a href="#" className="grid grid-cols-2 gap-4">
+                    <div className="bg-neutral-900 w-fit flex flex-col gap-16 border-solid border-[0.5px] border-neutral-500 rounded-xl p-6 hover:border-neutral-100">
                         <div className="flex flex-col gap-4">
                             <h1 className="text-neutral-200 font-bold text-3xl">Character Prefix Conditioning</h1>
                             <p className="font-mono text-neutral-200 font-regular text-lg">A clever algorithm for more accurate code completion sampling.</p>
@@ -26,7 +26,7 @@ export default function Blogs() {
                             </div>
                         </div>
                     </div>
-                    <div className="w-fit flex flex-col gap-16 border-solid border-[0.5px] border-neutral-400 rounded-xl p-6 hover:border-neutral-100">
+                    <div className="bg-neutral-900 w-fit flex flex-col gap-16 border-solid border-[0.5px] border-neutral-500 rounded-xl p-6 hover:border-neutral-100">
                         <div className="flex flex-col gap-4">
                             <h1 className="text-neutral-200 font-bold text-3xl">Inference Characteristics of Llama</h1>
                             <p className="font-mono text-neutral-200 font-regular text-lg">A primer on inference math and an examination of the surprising costs of Llama.</p>
@@ -42,22 +42,22 @@ export default function Blogs() {
                 </a>
             </div>
         </div>
-        <div>
+        <div className="px-4 mx-auto flex flex-col gap-4 pb-60">
             <h2 className="text-4xl font-semibold text-neutral-200">All posts</h2>
-            <a href="/Pages/Blogs/BLog">
+            <a href="/Pages/Blogs/BLog" className="grid grid-cols-3 gap-5 ">
                 {
                     details.Contents.Blog.map((item) =>(
-                        <div key={item.id} className="border-solid border-[0.5px] border-neutral-300 rounded-xl">
-                            <div>
-                                <div>
-                                    <h2>{item.heading}</h2>
-                                    <p>{item.content}</p>
+                        <div key={item.id} className="bg-neutral-900 border-solid border-[0.5px] border-neutral-500 rounded-xl hover:border-neutral-100">
+                            <div className="p-6 flex flex-col gap-16">
+                                <div className="flex flex-col gap-2">
+                                    <h2 className="font-semibold text-xl text-neutral-200">{item.heading}</h2>
+                                    <p className="font-mono text-neutral-400">{item.content}</p>
                                 </div>
-                                <div>
-                                    <img src={item.img} alt="Profile" />
-                                    <div>
-                                        <p>By {item.name}</p>
-                                        <p>{item.time} minutes read</p>
+                                <div className="flex gap-6 items-center">
+                                    <img src={item.img} alt="Profile" className="size-14 rounded-lg"/>
+                                    <div className="flex flex-col">
+                                        <p className="font-mono text-neutral-200 text-base font-medium">By {item.name}</p>
+                                        <p className="font-mono text-neutral-400 text-base font-normal">{item.time} minutes read</p>
                                     </div>
                                 </div>
                             </div>

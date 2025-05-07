@@ -390,7 +390,7 @@
                 "id": 41,
                 "heading" : "Early Team",
                 "content" : "Lots of great people are behind Cursor! Here are some.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/sualeh.avif",
                 "name": "Sualef Asif",
                 "time": 2
             },
@@ -398,7 +398,7 @@
                 "id": 42,
                 "heading" : "Series B and Automating Code",
                 "content" : "We've raised $105M to further our mission of automating code.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/team.avif",
                 "name": "Anysphere Team",
                 "time": 1
             },
@@ -406,7 +406,7 @@
                 "id": 43,
                 "heading" : "A New Tab Model",
                 "content" : "Announcing the next-generation Cursor Tab model.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/phillip.avif",
                 "name": "Phillip",
                 "time": 3
             },
@@ -414,7 +414,7 @@
                 "id": 44,
                 "heading" : "Character Prefix Conditioning",
                 "content" : "A clever algorithm for more accurate code completion sampling.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/jacob.avif",
                 "name": "Jacob",
                 "time": 2
             },
@@ -422,7 +422,7 @@
                 "id": 45,
                 "heading" : "Supermaven Joins Cursor",
                 "content" : "We're teaming up to build the next phase of AI coding.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/michael.avif",
                 "name": "Michael",
                 "time": 2
             },
@@ -430,7 +430,7 @@
                 "id": 46,
                 "heading" : "Iterating with Shadow Workspaces",
                 "content" : "Hidden windows and kernel-level folder proxies to let AIs iterate on code without affecting the user.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/arvid.avif",
                 "name": "Arvid",
                 "time": 19
             },
@@ -438,7 +438,7 @@
                 "id": 47,
                 "heading" : "Series A and Magic",
                 "content" : "We've raised $60M to create a magical tool with the aim of writing the world's software.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/team.avif",
                 "name": "Anysphere Team",
                 "time": 2
             },
@@ -446,7 +446,7 @@
                 "id": 48,
                 "heading" : "More Problems",
                 "content" : "Several exciting problem areas for the next phase of AI-programming.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/aman.avif",
                 "name": "Aman",
                 "time": 5
             },
@@ -454,7 +454,7 @@
                 "id": 49,
                 "heading" : "Our Problems",
                 "content" : "Lots of great people are behind Cursor! Here are some.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/sualeh.avif",
                 "name": "Sualef",
                 "time": 4
             },
@@ -462,7 +462,7 @@
                 "id": 50,
                 "heading" : "Inference Characteristics of Llama",
                 "content" : "A primer on inference math and an examination of the surprising costs of Llama.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/aman.avif",
                 "name": "Aman",
                 "time": 19
             },
@@ -470,7 +470,7 @@
                 "id": 51,
                 "heading" : "Prompt Design",
                 "content" : "Prompting is like web design. Let's call it prompt design, and build better tools for it.",
-                "img": "/img/blog/earlyteam.avif",
+                "img": "/img/profile/arvid.avif",
                 "name": "Arvid",
                 "time": 5
             }

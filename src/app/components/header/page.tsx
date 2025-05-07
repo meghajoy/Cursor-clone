@@ -24,7 +24,7 @@ export default function Header() {
                 <li><a href="/Pages/Pricing" className="hover:text-neutral-200">Pricing</a></li>
                 <li><a href="/Pages/Features" className="hover:text-neutral-200">Features</a></li>
                 <li><a href="#" className="hover:text-neutral-200">Enterprises</a></li>
-                <li><a href="#" className="hover:text-neutral-200">Blog</a></li>
+                <li><a href="/Pages/Blogs" className="hover:text-neutral-200">Blog</a></li>
                 <li><a href="#" className="hover:text-neutral-200">Forum</a></li>
                 <li><a href="#" className="hover:text-neutral-200">Careers</a></li>
             </ul>
