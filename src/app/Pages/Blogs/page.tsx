@@ -1,4 +1,5 @@
 import Header from "@/app/components/Header/page"
+import details from "@/app/content/contents.json"
 import Footer from "@/app/components/Footer/page"
 export default function Blogs() {
   return (
@@ -40,6 +41,30 @@ export default function Blogs() {
                     </div>
                 </a>
             </div>
+        </div>
+        <div>
+            <h2 className="text-4xl font-semibold text-neutral-200">All posts</h2>
+            <a href="/Pages/Blogs/BLog">
+                {
+                    details.Contents.Blog.map((item) =>(
+                        <div key={item.id} className="border-solid border-[0.5px] border-neutral-300 rounded-xl">
+                            <div>
+                                <div>
+                                    <h2>{item.heading}</h2>
+                                    <p>{item.content}</p>
+                                </div>
+                                <div>
+                                    <img src={item.img} alt="Profile" />
+                                    <div>
+                                        <p>By {item.name}</p>
+                                        <p>{item.time} minutes read</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+            </a>
         </div>
         <Footer/>
     </div>
