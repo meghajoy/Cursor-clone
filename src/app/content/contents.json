@@ -289,16 +289,19 @@
                 "big": "/img/featurecard/big1.svg",
                 "small": [
                     {
+                        "id": 1,
                         "img": "/img/featurecard/dark1.svg",
                         "heading": "Finds Context",
                         "description": "Using custom retrieval models, Cursor can understand a codebase. This reduces the need to manually add context."
                     },
                     {
+                        "id": 2,
                         "img": "/img/featurecard/dark2.svg",
                         "heading": "Runs Commands",
                         "description": "Cursor can automatically write and run terminal commands. By default, you’ll be asked to confirm all commands."
                     },
                     {
+                        "id": 3,
                         "img": "/img/featurecard/dark3.svg",
                         "heading": "Loops on Errors",
                         "description": "Cursor can detect lint errors automatically and apply fixes, reducing the need for manual debugging."
@@ -312,16 +315,19 @@
                 "big": "/img/featurecard/big2.svg",
                 "small": [
                     {
+                        "id": 4,
                         "img": "/img/featurecard/dark4.svg",
                         "heading": "Multi-Line Edits",
                         "description": "Cursor can suggest multiple edits at once, saving you time."
                     },
                     {
+                        "id": 5,
                         "img": "/img/featurecard/dark5.svg",
                         "heading": "Smart Rewrites",
                         "description": "Type carelessly, and Cursor will fix your mistakes."
                     },
                     {
+                        "id": 6,
                         "img": "/img/featurecard/dark6.svg",
                         "heading": "Cursor Prediction",
                         "description": "Cursor predicts your next cursor position so you can seamlessly navigate your code."
@@ -335,31 +341,37 @@
                 "big": "/img/featurecard/big3.svg",
                 "small": [
                     {
+                        "id": 7,
                         "img": "/img/featurecard/dark7.svg",
                         "heading": "Instant Apply",
                         "description": "Apply the code suggestions from chat back into your codebase by clicking the play button on top of any chat codeblock."
                     },
                     {
+                        "id": 8,
                         "img": "/img/featurecard/dark8.svg",
                         "heading": "Codebase Answers",
                         "description": "Use @Codebase or Ctrl Enter to ask questions about your codebase. Cursor will search your codebase to find relevant code to your query."
                     },
                     {
+                        "id": 9,
                         "img": "/img/featurecard/dark9.svg",
                         "heading": "Reference your Code",
                         "description": "Reference code with @ symbols to be used as context for the AI. Just type @ to see a list of all the files and code symbols in your folder."
                     },
                     {
+                        "id": 10,
                         "img": "/img/featurecard/dark10.svg",
                         "heading": "Use Images",
                         "description": "Hit the image button under chat or drag an image into the input box to include visual context into chat."
                     },
                     {
+                        "id": 11,
                         "img": "/img/featurecard/dark11.svg",
                         "heading": "Ask the Web",
                         "description": "Get up-to-date information from the internet with @Web. Cursor will search the web for you and use the latest information to answer your question."
                     },
                     {
+                        "id": 12,
                         "img": "/img/featurecard/dark12.svg",
                         "heading": "Use Documentation",
                         "description": "Reference popular libraries using @LibraryName, or add your own using @Docs → Add new doc."
@@ -373,11 +385,13 @@
                 "big": "/img/featurecard/big4.svg",
                 "small": [
                     {
+                        "id": 13,
                         "img": "/img/featurecard/dark13.svg",
                         "heading": "Terminal Ctrl K",
                         "description": "Use Ctrl K in the terminal to write terminal commands in plain english. Cursor will convert them into the terminal command you need."
                     },
                     {
+                        "id": 14,
                         "img": "/img/featurecard/dark14.svg",
                         "heading": "Quick Questions",
                         "description": "If you have any quick questions about certain parts of your code, you can select and click on 'quick question' to get your answer right away."
