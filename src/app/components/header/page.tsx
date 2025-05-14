@@ -1,10 +1,23 @@
 "use client"
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export default function Header() {
+
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 10);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  },[]);
+  
   return (
     <header className="sticky top-0 z-50 w-full px-4 py-7 mx-auto max-w-[1280px]">
-      <div className="flex justify-between items-center px-[7px] py-[6px] bg-stone-950 rounded-2xl w-full shadow-[0_0_20px_rgba(255,255,255,0.1)] backdrop-blur-md transition-shadow">
+      <div className={`flex justify-between items-center px-[7px] py-[6px] bg-stone-950 rounded-2xl w-full ${isScrolled? "shadow-[0_0_20px_rgba(255,255,255,0.1)]":""} backdrop-blur-md transition-shadow`}>
         
         {/* Logo Section */}
         <div className="px-4">
