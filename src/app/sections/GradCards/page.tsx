@@ -1,7 +1,7 @@
 import GradientCard from "@/app/components/GradientCard/page"
 export default function GradCards() {
   return (
-    <div className="mx-auto px-4 flex gap-4 py-28">
+    <div className="mx-auto px-4 flex flex-wrap gap-4 py-28">
       <GradientCard
         heading="Frontier Intelligence"
         description="Powered by a mix of purpose-built and frontier models, Cursor is smart and fast."
