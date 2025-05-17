@@ -40,7 +40,7 @@ export default function SlidingCard({ data, direction = "up", repeat = true }: S
     const interval = setInterval(() => {
       if (paused) return;
       setPosition((prev) => {
-        let next = direction === "up" ? prev - speed : prev + speed;
+        const next = direction === "up" ? prev - speed : prev + speed;
 
         // reset when crossing threshold
         if (direction === "up" && Math.abs(next) >= singleListHeight * 1.5) {

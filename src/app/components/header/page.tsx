@@ -22,7 +22,7 @@ export default function Header() {
         
         {/* Logo Section */}
         <div className="px-4">
-          <Link href="/" className="flex gap-1 items-center">  {/* Use Link instead of <a> */}
+          <Link href="/" className="flex gap-1 items-center"> 
             <div className="w-[32px] h-[32px]">
               <img
                 src="https://www.cursor.com/_next/static/media/placeholder-logo.737626f1.webp"
