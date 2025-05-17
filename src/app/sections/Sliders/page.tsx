@@ -36,7 +36,7 @@ export default function Sliders() {
         >
           {allItems.map((item) => (
             <SwiperSlide key={item.id}>
-              <SlidingCard data={[item]} />
+              <SlidingCard data={[item]} repeat={false} />
             </SwiperSlide>
           ))}
         </Swiper>
@@ -44,9 +44,9 @@ export default function Sliders() {
 
       {/* ─── Desktop: your original auto‑scroll vertical sliders ─── */}
       <div className="hidden md:flex gap-6 h-[900px] overflow-hidden relative w-full">
-        <SlidingCard data={Slider1} direction="up" />
-        <SlidingCard data={Slider2} direction="down" />
-        <SlidingCard data={Slider3} direction="up" />
+        <SlidingCard data={Slider1} direction="up" repeat />
+        <SlidingCard data={Slider2} direction="down" repeat />
+        <SlidingCard data={Slider3} direction="up" repeat />
 
         {/* Blur overlays */}
         <div className="absolute top-0 left-0 right-0 h-16 bg-gradient-to-b from-neutral-950 to-transparent pointer-events-none" />

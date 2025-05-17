@@ -12,18 +12,19 @@ export interface TestimonialItem {
 interface SlidingCardProps {
   data: TestimonialItem[];
   direction?: "up" | "down";
+  repeat? : boolean;
 }
 
-export default function SlidingCard({ data, direction = "up" }: SlidingCardProps) {
+export default function SlidingCard({ data, direction = "up", repeat = true }: SlidingCardProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [position, setPosition] = useState(0);
   const [disableTransition, setDisableTransition] = useState(false);
   const [paused, setPaused] = useState(false);
 
-  // repeat data for seamless scrolling
-  const items = Array(5)
-    .fill(null)
-    .flatMap(() => data);
+  // repeat data for seamless scrolling, for mobile no repetition
+  const items = repeat
+    ? Array(3).fill(null).flatMap(() => data)
+    : data;
 
   useEffect(() => {
     const container = containerRef.current;
