@@ -7,7 +7,7 @@ export default function BlogCard() {
                     <img src="/img/cup.svg" alt="Cup" className="invert size-4" />
                     <h5 className="font-mono text-neutral-300 font-medium text-lg uppercase">Blog</h5>
                 </div>
-                <div className="flex gap-24 md:flex-wrap-reverse">
+                <div className="flex gap-24 md:flex-wrap-reverse lg:flex-nowrap">
                     <div className="flex flex-col gap-20">
                         <div className="flex flex-col gap-8">
                             <h1 className="text-neutral-200 font-bold text-4xl">Iterating with Shadow Workspaces</h1>
