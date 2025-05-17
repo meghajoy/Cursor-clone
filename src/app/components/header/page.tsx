@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link"; 
 
 export default function Header() {
 
@@ -21,7 +22,7 @@ export default function Header() {
         
         {/* Logo Section */}
         <div className="px-4">
-          <a href="/" className="flex gap-1 items-center">
+          <Link href="/" className="flex gap-1 items-center">  {/* Use Link instead of <a> */}
             <div className="w-[32px] h-[32px]">
               <img
                 src="https://www.cursor.com/_next/static/media/placeholder-logo.737626f1.webp"
@@ -36,7 +37,7 @@ export default function Header() {
                 height={17}
               />
             </div>
-          </a>
+          </Link>
         </div>
 
         {/* Nav Section */}
