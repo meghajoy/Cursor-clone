@@ -21,7 +21,7 @@ export default function SlidingCard({ data, direction = "up", repeat = true }: S
   const [disableTransition, setDisableTransition] = useState(false);
   const [paused, setPaused] = useState(false);
 
-  // repeat data for seamless scrolling, for mobile no repetition
+  // repeat data for scrolling, for mobile no repetition
   const items = repeat
     ? Array(3).fill(null).flatMap(() => data)
     : data;
