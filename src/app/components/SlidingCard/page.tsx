@@ -80,12 +80,12 @@ export default function SlidingCard({ data, direction = "up", repeat = true }: S
             key={`${item.id}-${idx}`}
             onMouseEnter={() => setPaused(true)}
             onMouseLeave={() => setPaused(false)}
-            className="group mb-4 p-4 border border-neutral-400 rounded-2xl bg-neutral-950
+            className="group mb-4 p-6 border border-neutral-400 rounded-2xl bg-neutral-950
                         hover:bg-[url('/img/gradient.avif')] bg-cover bg-center
-                        transition-colors duration-300 min-h-[200px]"
+                        transition-colors duration-300 min-h-[200px] hover:text-neutral-100"
           >
-            <div className="flex flex-col gap-6">
-              <p className="font-mono text-neutral-300 font-medium text-base">
+            <div className="flex flex-col gap-10 hover:text-neutral-100">
+              <p className="text-neutral-300 font-semibold text-base">
                 {item.feedback}
               </p>
               <div className="flex items-center gap-4">
@@ -94,11 +94,11 @@ export default function SlidingCard({ data, direction = "up", repeat = true }: S
                   alt={item.name}
                   className="w-14 h-14 rounded-full object-cover"
                 />
-                <div className="flex flex-col">
-                  <p className="font-mono text-neutral-400 font-semibold text-lg">
+                <div className="flex flex-col hover:text-neutral-100">
+                  <p className="text-neutral-400 font-semibold text-lg">
                     {item.name}
                   </p>
-                  <p className="font-mono text-neutral-400 font-medium text-lg">
+                  <p className="text-neutral-400 font-medium text-lg">
                     {item.job}
                   </p>
                 </div>

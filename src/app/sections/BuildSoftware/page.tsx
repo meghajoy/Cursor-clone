@@ -13,8 +13,8 @@ export default function BuildSoftware() {
       </div>
 
       {/* Right Section - Button */}
-      <a href="/Pages/Features" className="self-start lg:self-auto">
-        <button className="flex gap-2 items-center bg-stone-100 rounded-lg px-4 py-3 h-12 font-mono font-semibold uppercase text-stone-900 text-sm sm:text-base">
+      <a href="/features" className="self-start lg:self-auto ">
+        <button className="cursor-pointer flex gap-2 items-center bg-stone-100 rounded-lg px-4 py-3 h-12 font-medium text-stone-900 text-sm sm:text-base">
           See More Features
         </button>      
       </a>

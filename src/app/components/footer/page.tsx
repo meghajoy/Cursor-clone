@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
             <div className="flex font-mono text-neutral-500 gap-1 group w-fit">
               <p>Made by</p>
-              <div className="flex gap-1 items-center">
+              <div className="flex gap-1 items-center w-12">
                 <a href="#" className="hover:text-neutral-400">Anysphere</a>
                 <img src="/img/arrow.svg" alt="Icon" className="size-3 invert hidden group-hover:block" />
               </div>

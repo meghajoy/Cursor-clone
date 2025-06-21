@@ -1,11 +1,8 @@
-import Header from "@/app/components/Header/page"
 import details from "@/app/content/contents.json"
-import Footer from "@/app/components/Footer/page"
 
 export default function Blogs() {
   return (
     <div>
-      <Header />
       <div className="flex flex-col py-8 px-4 md:px-6 lg:px-16">
         <div className="flex flex-col items-start gap-2 py-12">
           <h1 className="font-bold h-15 text-3xl md:text-4xl lg:text-5xl bg-linear-to-b from-neutral-200 to-neutral-400 bg-clip-text text-transparent">
@@ -82,7 +79,6 @@ export default function Blogs() {
           }
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

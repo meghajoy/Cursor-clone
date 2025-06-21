@@ -20,7 +20,7 @@ export default function Sliders() {
         <h1 className="font-bold text-5xl bg-linear-to-b from-neutral-200 to-neutral-400 bg-clip-text text-transparent">
           Loved by world-class devs
         </h1>
-        <p className="font-mono font-medium text-[24px] text-neutral-200">
+        <p className="font-semibold text-[22px] text-neutral-200">
           Engineers all around the world reach for Cursor by choice.
         </p>
       </div>

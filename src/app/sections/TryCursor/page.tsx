@@ -61,13 +61,13 @@ export default function Try() {
         <a href="#">
           <div className="relative group p-1 items-center border-[0.5px] border-stone-100 rounded-xl w-fit mx-auto md:mx-0">
             {/* Glow Effect */}
-            <div className="absolute bottom-0 left-0 w-full h-2/3 opacity-0 group-hover:opacity-100 transition duration-300 blur-md rounded-lg z-0 pointer-events-none 
+            <div className="absolute bottom-0 left-0 w-full h-1/3 opacity-0 group-hover:opacity-100 transition duration-300 blur-md rounded-lg z-0 pointer-events-none 
                 bg-gradient-to-tr from-pink-400 via-purple-500 to-pink-400" />
             
             {/* Actual Button */}
             <div className="relative z-10 flex gap-4 items-center bg-stone-100 rounded-lg px-4 py-3">
               <img src="https://www.cursor.com/_next/static/media/placeholder-logo.737626f1.webp" alt="Image" className="size-8"/>
-              <p className="font-mono font-semibold uppercase text-stone-900">Download for free</p>  
+              <p className="font-medium text-stone-900">Download for free</p>  
             </div>
           </div>
         </a>

@@ -21,7 +21,7 @@ export default function Spotlight() {
           <div className="flex p-1 items-center border-[0.5px] border-stone-100 rounded-xl">
             <div className="flex gap-4 items-center bg-stone-100 rounded-lg px-4 py-4">
               <Image src="/img/download.svg" alt="Download icon" width={21} height={21} />
-              <a href="#" className="font-mono font-semibold uppercase text-stone-900 text-sm">
+              <a href="#" className="font-semibold text-stone-900 text-base">
                 Download for Windows
               </a>
             </div>
@@ -30,7 +30,7 @@ export default function Spotlight() {
           {/* All Downloads */}
           <div className="flex p-1 items-center border-[0.5px] border-stone-100 rounded-xl">
             <div className="flex gap-2 items-center bg-stone-950 rounded-lg px-4 py-4">
-              <a href="#" className="font-mono font-semibold uppercase text-stone-100 text-sm">
+              <a href="#" className="font-semibold text-stone-100 text-base">
                 All Downloads
               </a>
             </div>

@@ -42,11 +42,11 @@ export default function Header() {
 
         {/* Nav Section */}
         <div className="hidden lg:flex">
-          <ul className="flex gap-10 font-mono font-semibold uppercase text-neutral-400">
-            <li><a href="/Pages/Pricing" className="hover:text-neutral-200">Pricing</a></li>
-            <li><a href="/Pages/Features" className="hover:text-neutral-200">Features</a></li>
+          <ul className="flex gap-10 font-semibold text-neutral-400">
+            <li><a href="/pricing" className="hover:text-neutral-200">Pricing</a></li>
+            <li><a href="/features" className="hover:text-neutral-200">Features</a></li>
             <li><a href="#" className="hover:text-neutral-200">Enterprises</a></li>
-            <li><a href="/Pages/Blogs" className="hover:text-neutral-200">Blog</a></li>
+            <li><a href="/blogs" className="hover:text-neutral-200">Blog</a></li>
             <li><a href="#" className="hover:text-neutral-200">Forum</a></li>
             <li><a href="#" className="hover:text-neutral-200">Careers</a></li>
           </ul>
@@ -55,11 +55,11 @@ export default function Header() {
         {/* Sign In & Download */}
         <div className="hidden lg:flex gap-4 items-center">
           <div className="flex items-center border-[0.5px] border-solid border-neutral-400 rounded-lg px-4 py-3 hover:border-neutral-200">
-            <a href="#" className="flex gap-4 font-mono font-semibold uppercase text-neutral-300">Sign In</a>
+            <a href="#" className="flex gap-4 font-semibold text-neutral-300 text-sm">Sign In</a>
           </div>
           <div className="flex gap-2 items-center bg-stone-100 rounded-lg px-4 py-3">
             <Image src="/img/download.svg" alt="Download icon" width={14} height={12} />
-            <a href="#" className="font-mono font-semibold uppercase text-stone-900">Download</a>
+            <a href="#" className="font-semibold text-stone-900 text-sm">Download</a>
           </div>
         </div>
 

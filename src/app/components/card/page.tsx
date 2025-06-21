@@ -20,7 +20,7 @@ export default function Card({
         <h1 className="font-bold text-xl sm:text-2xl md:text-3xl lg:text-5xl bg-gradient-to-b from-neutral-200 to-neutral-400 bg-clip-text text-transparent">
           {heading}
         </h1>
-        <p className="font-mono font-medium text-sm sm:text-base md:text-lg lg:text-xl text-neutral-200 max-w-3xl">
+        <p className="font-semibold text-sm sm:text-base md:text-lg lg:text-xl text-neutral-200 max-w-4xl">
           {description}
         </p>
       </div>
